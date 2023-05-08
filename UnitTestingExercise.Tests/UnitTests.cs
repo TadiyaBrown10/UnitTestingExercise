@@ -23,7 +23,6 @@ namespace UnitTestingExercise.Tests
 
             var actual = test.Add( num1, num2, num3);
 
-
             //Assert
             //Assert.Equal(expected, actual);
 
@@ -48,7 +47,7 @@ namespace UnitTestingExercise.Tests
         }
 
         [Theory]
-        [InlineData()]//Add test data <-------
+        [InlineData(2, 9, 18)]//Add test data <-------
         public void MultiplyTest(int num1, int num2, int expected)
         {
             //Start Step 7 here:
@@ -68,7 +67,7 @@ namespace UnitTestingExercise.Tests
         }
 
         [Theory]
-        [InlineData()]//Add test data <-------
+        [InlineData(100, 100, 1)]//Add test data <-------
         public void DivideTest(int num1, int num2, int expected)
         {
             //Arrange
